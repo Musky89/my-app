@@ -1,0 +1,40 @@
+.ai-design-assistant-panel {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel-header {
+    margin-bottom: 20px;
+  }
+  
+  .tool-categories {
+    margin-bottom: 20px;
+  }
+  
+  .tool-categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tool-categories li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .tool-categories li:hover {
+    text-decoration: underline;
+  }
+  
+  .search-tools {
+    margin-bottom: 20px;
+  }
+  
+  .search-tools input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

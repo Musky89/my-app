@@ -1,0 +1,41 @@
+.ai-design-assistant {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .ai-design-assistant textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .ai-design-assistant button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .ai-design-assistant button:hover {
+    background-color: #0056b3;
+  }
+  
+  .ai-assistant-response {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,21 @@
+.design-interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+  }
+  
+  .color-picker {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .color-picker label {
+    margin-right: 1rem;
+  }
+  

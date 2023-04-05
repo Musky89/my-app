@@ -1,0 +1,11 @@
+.analytics-dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .data-widget-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  

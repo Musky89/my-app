@@ -1,0 +1,39 @@
+.design-input {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .design-input label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .design-input input,
+  .design-input textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .design-input button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .design-input button:hover {
+    background-color: #0056b3;
+  }
+  

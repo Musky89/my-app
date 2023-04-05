@@ -1,0 +1,44 @@
+.design-input-output {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .design-brief-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .design-brief-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .design-brief-form input,
+  .design-brief-form select,
+  .design-brief-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .design-brief-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .design-brief-form button:hover {
+    background-color: #0056b3;
+  }
+  

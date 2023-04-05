@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./App.css";
+import Header from './components/Header';
+import HomePage from './components/pages/HomePage';
+import MainComponent from './components/MainComponent';
+import UserDashboard from './components/UserDashboard/UserDashboard';
+import DesignInterface from './components/DesignInterface';
+import AIDesignAssistantPanel from './components/AIDesignAssistantPanel';
+import DesignInputOutput from './components/DesignInputOutput';
+import OnboardingTutorial from './components/OnboardingTutorial';
+import ProjectManagement from './components/ProjectManagement';
+import Collaboration from "./components/Collaboration/Collaboration";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <HomePage />
+      <UserDashboard />
+      <ProjectManagement />
+      <Collaboration />
+      <DesignInterface />
+      <AIDesignAssistantPanel />
+      <DesignInputOutput />
+      <OnboardingTutorial />
+      <MainComponent />
     </div>
   );
 }

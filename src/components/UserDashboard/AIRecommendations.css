@@ -1,0 +1,35 @@
+.ai-recommendations {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ai-recommendations-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ai-recommendation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ai-recommendation-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ai-recommendation-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ai-recommendation-confidence {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  

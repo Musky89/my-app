@@ -1,0 +1,28 @@
+.folder-organization {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .folder-organization ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .folder-organization li {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    cursor: grab;
+  }
+  
+  .folder-organization li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .folder-organization li:active {
+    cursor: grabbing;
+  }
+  
